@@ -1,0 +1,36 @@
+:root {
+
+    --branco-principal: #000000;
+    --cinza-secundario: #363636;
+    --botao-amrelo-esverdeado: #a3ff03;
+    --cor-de-fundo: #124f01;
+
+}
+
+body {
+
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.imagem-canal {
+
+    background-image: url("2023-06-26.png");
+    background-repeat: no-repeat;
+    background-size: 600px;
+
+}
+
+.icone-canal {
+
+    height: 100vh;
+    
+}
