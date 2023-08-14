@@ -1,0 +1,91 @@
+:root {
+
+    --preto-bah: #000000;
+    --branco-principal: #ffffff;
+    --verde-principal: #009650;
+    --cinza-secundario: #fbff01;
+    --botao-amrelo-esverdeado: #a3ff03;
+    --cor-de-fundo: #124f01;
+    --fonte-principal: 'inter';
+
+}
+
+body {
+
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.imagem-canal {
+
+    background-image: url("2023-06-26.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.icone-canal {
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__botao {
+
+    background-color: var(--botao-amrelo-esverdeado);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--verde-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.botao__secundario {
+
+    background-color: transparent;
+    border: 2px solid var(--preto-bah);
+    color: var(--preto-bah);
+
+}
+
+.container__aviso {
+
+    font-size: 12px;
+    color: var(--cinza-secundario);
+
+}
+
+.container__titulo {
+
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.container__imagem {
+
+    margin: 1em 0 2em 0;
+
+}
+
+.container__caixa {
+
+    margin: 0 6em;
+
+}
