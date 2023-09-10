@@ -141,7 +141,7 @@ body {
     list-style-type: none;
     margin: 5em 0;
     grid-template-columns: 33% 33% 33%;
-  
+
 }
 
 .dispositivos {
@@ -166,12 +166,18 @@ body {
 
 .lista__itemr {
 
-width: 30%;
+    width: 23%;
 
 }
 
-.lista__itemm{
+.lista__itemm {
 
-width: 40%;
+    width: 40%;
+
+}
+
+.rodape__logo{
+
+align-items: center;
 
 }
