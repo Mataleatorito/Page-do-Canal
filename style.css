@@ -176,8 +176,32 @@ body {
 
 }
 
-.rodape__logo{
+.rodape__logo {
 
-align-items: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+
+}
+
+.rodape__lista {
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 15px;
+
+}
+
+.lista__link a:hover{
+
+    color: var(--branco-principal);
+    text-decoration: none;
+
+}
+
+.rodape__texto {
+
+    align-items: center;
+    text-align: center;
 
 }
