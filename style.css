@@ -7,6 +7,7 @@
     --botao-amrelo-esverdeado: #a3ff03;
     --cor-de-fundo: #124f01;
     --fonte-principal: 'inter';
+    --botao-azul-efeito: #609603;
 
 }
 
@@ -192,10 +193,16 @@ body {
 
 }
 
-.lista__link a:hover{
+.lista__link a:hover {
 
     color: var(--branco-principal);
     text-decoration: none;
+
+}
+
+.lista__link a:active {
+
+    color: var(--botao-amrelo-esverdeado);
 
 }
 
@@ -203,5 +210,12 @@ body {
 
     align-items: center;
     text-align: center;
+
+}
+
+.container__botao a:hover {
+
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 
 }
